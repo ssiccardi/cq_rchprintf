@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>    
+    
+		<record id="product_product_view_pas2015" model="ir.ui.view">
+		    <field name="name">product.product.view.pas2015</field>
+			<field name="model">product.product</field>
+			<field name="inherit_id" ref="product.product_normal_form_view"/>
+		    <field name="arch" type="xml">
+               <field name="active" position="after">
+                   <field name="department" />
+               </field>                                                       
+		    </field>
+		</record>
+		
+		
+	</data>
+</openerp>

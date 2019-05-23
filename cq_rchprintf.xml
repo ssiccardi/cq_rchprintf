@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <template id="assets_backend" name="point_of_sale assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/fprchprintf.js"></script>
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/fiscalprint.js"></script>
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/screensval.js"></script>
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/modelsval.js"></script>
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/main.js"></script>
+                <script type="text/javascript" src="/cq_rchprintf/static/src/js/widget_base_val.js"></script>                
+            </xpath>
+        </template>
+    </data>
+</openerp>
